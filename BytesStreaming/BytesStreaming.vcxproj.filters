@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Streaming">
+      <UniqueIdentifier>{9107ef68-06d9-486c-8c53-10cb14ce52fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Null">
+      <UniqueIdentifier>{fb6f2178-030e-44d0-915d-8a5fa2c56274}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BytesStreaming.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="streaming.h">
+      <Filter>Streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>Null</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper.h">
+      <Filter>Null</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
